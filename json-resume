@@ -1,0 +1,49 @@
+
+// Create your own resume data in JSON format
+
+let resume={
+    "basics": {
+        "name": "Nandhini M",
+        "label": "US IT Recruiter",
+        "email": "nandhiniman98@gmail.com",
+        "phone": "8778722268",
+        "location": "Madhuravoyal,Chennai",
+        "postalCode": "600095",
+        "city": "Chennai",
+        "country": "India",
+        "state": "Tamil Nadu"
+    },
+    "profiles": [{
+        "network": "Linkedin,Github",
+        "username": "Nandhini M",
+        "url": "https://www.linkedin.com/in/m-nandhini-b1095b246/",
+        "giturl": "https://github.com/nandhini1802"
+    }],
+    "education": [{
+        "institution":"Government Arts College of Women",
+        "department": "BA English Literature",
+        "startdate": "Jun-2015",
+        "enddate": "Apr-2018",
+       
+   }],
+
+   "education": [{
+    "institution":"PGDHRM",
+    "department": "Human Resourse",
+    "startdate": "Nov-2020",
+    "enddate": "Nov-2021",
+   
+}],
+    "skills":[{
+        "name": "Html,Css,Javascript",
+        "level": "beginner",
+    }],
+    "language": [{
+        "language": "English,Tamil",
+        "fluency": "English,Tamil",
+    }],
+    }
+    console.log(resume)
+
+
+

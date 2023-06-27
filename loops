@@ -1,0 +1,39 @@
+// For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+
+
+//for loop
+
+
+for (let i=1; i<=5; i++){
+    console.log('Nandhini',i)
+}
+
+
+
+
+let dailyRoutine =  ['wakeup', 'eat', 'work', 'gym', 'sleep']
+
+
+// for-of
+
+
+for(let routine of dailyRoutine){
+    console.log(routine);
+}
+
+
+// for-in
+
+
+for(let routine in dailyRoutine){
+    console.log(routine, dailyRoutine[routine]);
+}
+
+
+// for each
+
+
+dailyRoutine.forEach(function(routine){
+    console.log(routine);
+});
